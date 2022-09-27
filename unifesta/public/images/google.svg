@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   xml:space="preserve"
+   width="106.66667"
+   height="106.66667"
+   viewBox="0 0 106.66667 106.66667"
+   sodipodi:docname="로고_구글.ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs6"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16"><path
+         d="M 0,80 H 80 V 0 H 0 Z"
+         id="path14" /></clipPath></defs><sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0" /><g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="로고_구글"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,106.66667)"><g
+       id="g10"><g
+         id="g12"
+         clip-path="url(#clipPath16)"><g
+           id="g18"
+           transform="translate(67.6723,39.3575)"><path
+             d="M 0,0 C 0,2.003 -0.181,3.927 -0.513,5.775 H -27.108 V -5.148 h 15.198 c -0.655,-3.53 -2.644,-6.52 -5.635,-8.523 v -7.085 h 9.128 c 5.339,4.917 8.42,12.155 8.42,20.756 z"
+             style="fill:#3e82f1;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path20" /></g><g
+           id="g22"
+           transform="translate(40.564,11.7597)"><path
+             d="m 0,0 c 7.624,0 14.017,2.53 18.689,6.842 l -9.128,7.085 c -2.53,-1.695 -5.762,-2.695 -9.564,-2.695 -7.355,0 -13.58,4.967 -15.802,11.641 h -9.431 V 15.557 C -20.588,6.329 -11.04,0 0,0"
+             style="fill:#32a753;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path24" /></g><g
+           id="g26"
+           transform="translate(24.7645,34.6329)"><path
+             d="m 0,0 c -0.564,1.695 -0.886,3.504 -0.886,5.366 0,1.862 0.322,3.671 0.886,5.366 v 7.315 h -9.436 c -1.913,-3.812 -3.004,-8.124 -3.004,-12.681 0,-4.557 1.091,-8.87 3.004,-12.682 L -0.003,0 Z"
+             style="fill:#f9bb00;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path28" /></g><g
+           id="g30"
+           transform="translate(40.564,57.0059)"><path
+             d="m 0,0 c 4.145,0 7.869,-1.426 10.795,-4.222 l 8.101,8.101 c -4.89,4.557 -11.282,7.355 -18.893,7.355 -11.041,0 -20.588,-6.328 -25.236,-15.557 l 9.434,-7.316 c 2.221,6.675 8.446,11.642 15.802,11.642 z"
+             style="fill:#e74133;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             id="path32" /></g></g></g></g></svg>
