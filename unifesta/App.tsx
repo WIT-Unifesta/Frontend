@@ -1,8 +1,8 @@
 import React, { useState, useCallback, useEffect, useRef } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import styled from 'styled-components/native'
-import {LinearGradient} from 'expo-linear-gradient';
+import styled from 'styled-components/native';
+import { LinearGradient } from 'expo-linear-gradient';
 import { AppLogo } from './components/image/image.style';
 import AppLogoImage from './public/images/unifesta_logo.svg';
 import * as Font from 'expo-font';
@@ -22,11 +22,11 @@ export default function App() {
     async function prepare() {
       try {
         await Font.loadAsync({
-          'AppleSDGothicNeoUL': require("./assets/fonts/AppleSDGothicNeoUL.ttf"),
-          'AppleSDGothicNeoB': require("./assets/fonts/AppleSDGothicNeoB.ttf"),
-          'AppleSDGothicNeoM': require("./assets/fonts/AppleSDGothicNeoM.ttf"),
+          AppleSDGothicNeoUL: require('./assets/fonts/AppleSDGothicNeoUL.ttf'),
+          AppleSDGothicNeoB: require('./assets/fonts/AppleSDGothicNeoB.ttf'),
+          AppleSDGothicNeoM: require('./assets/fonts/AppleSDGothicNeoM.ttf'),
         });
-        await new Promise(resolve => setTimeout(resolve, 1));
+        await new Promise((resolve) => setTimeout(resolve, 1));
       } catch (e) {
         console.warn(e);
       } finally {
@@ -53,21 +53,26 @@ export default function App() {
     return null;
   }
 
-  
-
   return (
     <View style={styles.container} onLayout={onLayoutRootView}>
       <LinearGradient
         // Background Linear Gradient
         colors={['rgba(255, 224, 64, 0.5737)', 'transparent']}
         style={styles.background}
-        start={[0, 0]} end={[1, 1]}>
-        <LottieView autoPlay ref={animation} source={require('./assets/74694-confetti.json')} style={{width: 400, height: 1000, position: 'absolute', bottom: 40}} resizeMode='cover'/>
-        <AppLogoImage width={262} height={187.56}/>
+        start={[0, 0]}
+        end={[1, 1]}>
+        <LottieView
+          autoPlay
+          ref={animation}
+          source={require('./assets/74694-confetti.json')}
+          style={{ width: 400, height: 1000, position: 'absolute', bottom: 40 }}
+          resizeMode="cover"
+        />
+        <AppLogoImage width={262} height={187.56} />
         <Greeting>어서오세요!</Greeting>
         <Greeting>같이 즐겨볼까요?</Greeting>
-        <EasyLoginView/>
-        <SocialLoginView/>
+        <EasyLoginView />
+        <SocialLoginView />
         <StatusBar style="auto" />
       </LinearGradient>
     </View>
@@ -86,8 +91,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#3C89FF',
-    paddingTop: '30%'
-
+    paddingTop: '30%',
   },
 });
-
